@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="css/login.css">
+
+</head>
+    <body>
+
+ <nav class="clearfix">
+  <ul class="clearfix">
+    <li ><a href="index.html" id="home">Home</a></li>
+    <li class="act"><a href="login.html" id="login">login</a></li>
+    <li><a href="singup.html" id="singup">singup</a></li>
+    <li><a href="#about">About Us</a></li>
+   
+  </ul>
+  <a href="#" id="pull">TaskManager</a>
+</nav>
+<div>
+<div class="container" >
+    <div class="col-md-6" >
+        <div id="logbox"  >
+            <form id="signup" method="post" action="/signup" >
+                <h1>LOGIN</h1>
+				 <input name="user[email]" type="text" placeholder="Enter Username" class="input pass"/>
+                <input name="user[password]" type="password" placeholder="Enter password" required="required" class="input pass"/>
+               
+                <input type="submit" value="Login" class="inputButton"/>
+
+            </form>
+        </div>
+    </div>
+    </div>
+  <footer class="nav-static-bottom" id="about">
+    <h1>Deepak ahuja</h1>
+</footer>
+</body>
+    </html>
